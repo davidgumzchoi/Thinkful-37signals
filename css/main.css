@@ -1,0 +1,136 @@
+body {
+	font: 14px Helvetica;
+	margin: 25px auto 0;
+	width: 1300px;
+}
+
+header {
+	overflow: hidden;
+}
+
+header .left {
+	float: left;
+}
+
+header .right {
+	float: right;
+}
+
+header li {
+	display: inline;
+	padding-right: 20px;
+}
+
+header li a {
+	color: #369;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+header li a:hover {
+	color: #69c;
+}
+
+header li.last {
+	padding-right: 0;
+}
+
+section {
+	margin-top: 35px;
+}
+
+section img.logo {
+	display: block;
+	margin: 40px auto;
+}
+
+article {
+	font-family: 'CrimsonSemibold', serif;
+	margin: 0 auto;
+	text-align: center;
+	width: 850px;
+}
+
+article h1 {
+	font-size: 48px;
+}
+
+article h2 {
+	font-size: 20px;
+	margin: 35px 0 0;
+}
+
+article.container {
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 50px;
+	width: 606px;
+}
+
+article .badge {
+	background: #eee;
+	background: -webkit-linear-gradient(#fff, #eee);
+	background: -moz-linear-gradient(#fff, #eee);
+	background: -ms-linear-gradient(#fff, #eee);
+	background: -o-linear-gradient(#fff, #eee);
+	background: linear-gradient(#fff, #eee);
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	float: left;
+	font-family: Helvetica, sans-serif;
+	height: 250px;
+	position: relative;
+	width: 180px;
+}
+
+article .margin_right {
+	margin-right: 30px;
+}
+
+article .badge img {
+	margin: 20px;
+}
+
+article .badge h3 a {
+	color: #369;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+article .badge h3 span {
+	color: #aaa;
+	font-size: 11px;
+	vertical-align: top;
+}
+
+article .badge h4 {
+	color: #c00;
+	font-size: 15px;
+	margin: 10px 0;
+}
+
+article .badge p {
+	margin: 0 10px;
+}
+
+article .arrow {
+	height: 69px;
+	position: absolute;
+	top: -40px;
+	width: 69px;
+}
+
+article .arrow.left {
+	background: url('../images/arrow-left.png');
+	left: -30px;
+}
+
+article .arrow.right {
+	background: url('../images/arrow-right.png');
+	right: -30px;
+}
+
+footer {
+	margin: 35px auto;
+	width: 72px;
+}
