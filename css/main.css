@@ -47,9 +47,10 @@ section img.logo {
 article {
 	font-family: 'CrimsonSemibold', serif;
 	margin: 0 auto;
+	min-height: 191px;
 	text-align: center;
 	width: 850px;
-}
+}	
 
 article h1 {
 	font-size: 48px;
