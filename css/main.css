@@ -36,18 +36,18 @@ header li.last {
 }
 
 section {
-	margin-top: 35px;
+	margin-top: 25px;
 }
 
 section img.logo {
 	display: block;
-	margin: 40px auto;
+	margin: 25px auto;
 }
 
 article {
 	font-family: 'CrimsonSemibold', serif;
 	margin: 0 auto;
-	min-height: 191px;
+	min-height: 185px;
 	text-align: center;
 	width: 850px;
 }	
@@ -58,13 +58,13 @@ article h1 {
 
 article h2 {
 	font-size: 20px;
-	margin: 35px 0 0;
+	margin: 25px 0 0;
 }
 
 article.container {
 	margin: 0 auto;
 	overflow: hidden;
-	padding-top: 50px;
+	padding-top: 40px;
 	width: 606px;
 }
 
@@ -115,6 +115,7 @@ article .badge p {
 }
 
 article .arrow {
+	display: none;
 	height: 69px;
 	position: absolute;
 	top: -40px;

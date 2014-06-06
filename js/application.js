@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    var arrow = $('.arrow');
     var h1 = $('article h1');
     var h2 = $('article h2');
     var h1Default = 'Making collaboration productive and enjoyable for people every day.';
@@ -11,33 +12,32 @@ $(document).ready(function() {
     var h1Campfire = 'From near or far, Campfire helps teams work together over the web in real-time.';
     var h2Campfire = 'Share ideas, discussions, concepts, images, code samples, videos, mockups, and documents in a real-time private chat room.  We couldn\'t run our own business without Campfire.';
 
-    $('.arrow').hide();
-    $('.badge.badge1').hover(function() {
-        $('.arrow.arrow1').show();
+    $('.badge1').hover(function() {
+        $(this).find(arrow).show();
         h1.text(h1Basecamp);
         h2.text(h2Basecamp);
     }, function() {
-        $('.arrow.arrow1').hide();
+        $(this).find(arrow).hide();
         h1.text(h1Default);
         h2.text(h2Default);
     });
 
-    $('.badge.badge2').hover(function() {
-        $('.arrow.arrow2').show();
+    $('.badge2').hover(function() {
+        $(this).find(arrow).show();
         h1.text(h1Highrise);
         h2.text(h2Highrise);
     }, function() {
-        $('.arrow.arrow2').hide();
+        $(this).find(arrow).hide();
         h1.text(h1Default);
         h2.text(h2Default);
     });
 
-    $('.badge.badge3').hover(function() {
-        $('.arrow.arrow3').show();
+    $('.badge3').hover(function() {
+        $(this).find(arrow).show();
         h1.text(h1Campfire);
         h2.text(h2Campfire);
     }, function() {
-        $('.arrow.arrow3').hide();
+        $(this).find(arrow).hide();
         h1.text(h1Default);
         h2.text(h2Default);
     });
