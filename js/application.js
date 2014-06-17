@@ -3,6 +3,7 @@ $(document).ready(function() {
     var arrow = $('.arrow');
     var h1 = $('article h1');
     var h2 = $('article h2');
+
     var h1Default = 'Making collaboration productive and enjoyable for people every day.';
     var h2Default = 'Frustration-free web-based apps for collaboration, sharing information, and making decisions.';
     var h1Basecamp = 'Basecamp is the project management tool you wish you had on your last project.';
